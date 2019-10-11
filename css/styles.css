@@ -1,0 +1,178 @@
+:root {
+	--font-text: "Lucida Sans Unicode",sans-serif; 
+	--font-title: "Lucida Grande", sans-serif;
+  }
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;    
+	height: 100%;
+	width: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+body {
+
+		border: 24px solid #2b81ac;
+	    font-family: var(--font-text,--font-title);
+		background: #3399cc;
+		color: white;
+		vertical-align: baseline;
+		height: 100%;
+}
+/* Main Styles */
+
+
+.container {
+	width: 70%;
+	max-width: 900px;
+	min-width: 350px;
+	margin: 0 auto;
+	padding: 0 15px;
+  }
+  ul div {
+	display: inline-block;
+  }
+  div li {
+	transition: 0.5s;
+  }
+  header {
+	padding: 25px 0;
+  }
+  h1 {
+	font-size: 28px;
+	color: white;
+  }
+  ul {
+
+	font-size: 0;
+	text-align: center;
+	border: 2px solid white;
+	cursor: pointer;
+	background: #3399cc;
+  }
+  li {
+	display: inline-block;
+	justify-content: center;
+	border: 2px solid white;
+	padding: 30px;
+	height: 140px;
+	width: 100%;
+	font-size: 15px;
+	vertical-align: middle;
+	background: white;
+  }
+  .half-width {
+	width: 50%;
+  }
+  .quarter-width {
+	width: 25%;
+  }
+  .full-width {
+	width: 100%;
+  }
+  .Lisbon {
+	  width: 50%;
+	  height: 100px;
+	background: #3399cc;
+
+  }
+  .Paris {
+	  width: 25%;
+	  height: 100px;
+	background: #33cccc;
+  }
+  .Belgrade {
+	width: 25%;
+	height: 100px;
+	background: #996699;
+  }
+  .Moscow {
+	width: 25%;
+	height: 100px;
+	background: #c24747;
+  }
+  .Tel-Aviv {
+	width: 25%;
+	height: 100px;
+	background: #e2674a;
+  }
+  .Cair {
+	width: 25%;
+	height: 100px;
+	  background: #ffcc66;
+  }
+  .New-York {
+	width: 25%;
+	height: 100px;
+	background: #99cc99;
+  }
+  .New-Delhi {
+	width: 25%;
+	height: 100px;
+	background: #669999;
+  }
+  .San {
+	width: 50%;
+	height: 100px;
+	background: #cc6699;
+  }
+  .Tokyo {
+	width: 25%;
+	height: 100px;
+	background: #339966;
+  }
+  .Sydney {
+	width: 100%;
+	height: 100px;
+    background: #666699;
+  }
+  footer {
+	padding: 20px 0;
+	color: white;
+  }
+  sup {
+	opacity: 80%;
+  }
+
+p {
+
+  display: inline-block;
+  vertical-align: text-top;
+}
+.wi {
+	color: white;
+	opacity: 0.7;
+	font-size: 22px;
+	padding: 5px;
+  }
+  p {
+	font-family: var(--font-text);
+  }
+  
+  #main-ico {
+	opacity: 1;
+  }
+
+  ul:hover li:not(:hover) {
+	opacity:.7;
+  }
